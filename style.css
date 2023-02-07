@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    /* border: 1px solid red; */
+}
+.container{color: black;
+    font-size: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    min-height: 100vh;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.ui-sec{width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    color: white;
+    height: 100vh;
+     border-top: 5px solid white;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.image-sec{
+    width: 50%;
+}
+.image-sec img{
+    width: 500px;
+    border-radius: 5px;
+}
+.text-sec{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 70px;
+    height: 300px;
+}
+.text-sec button{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+@media(max-width:768px){
+    .container{height: 50vh;
+        width: 100%;
+        font-size: 35px;
+        /* height: 30vh; */
+    }
+    .ui-sec{height: 70vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        /* border-top: none; */
+    }
+    .image-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-sec img{
+        width: 250px;
+        /* height: 200px; */
+    }
+    .text-sec{display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 40px;
+    }
+    .text-sec h6{width: 350px;
+        font-size: 35px;
+    }
+}
