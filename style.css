@@ -63,7 +63,7 @@ flex-direction: column;
 @media(max-width:768px){
     .container{height: 50vh;
         width: 100%;
-        font-size: 35px;
+        font-size: 25px;
         /* height: 30vh; */
     }
     .ui-sec{height: 70vh;
