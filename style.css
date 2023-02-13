@@ -40,10 +40,12 @@ flex-direction: column;
 }
 .image-sec{
     width: 50%;
+    
 }
 .image-sec img{
     width: 500px;
-    border-radius: 5px;
+    border-radius: 100px 0px 100px 0px;
+    height: 280px;
 }
 .text-sec{display: flex;
     flex-direction: column;
@@ -52,13 +54,18 @@ flex-direction: column;
     width: 50%;
     font-size: 70px;
     height: 300px;
+    background-color: white;
+    border-radius: 110px 0px ;
+    color: black;
+    padding: 80px;
 }
 .text-sec button{
-    background-color: white;
+    background-color: black;
     width: 200px;
     height: 30px;
     border: none;
     border-radius: 20px;
+    color: white;
 }
 
 @media(max-width:768px){
@@ -67,11 +74,11 @@ flex-direction: column;
         font-size: 25px;
         /* height: 30vh; */
     }
-    .ui-sec{height: 70vh;
+    .ui-sec{height: 90vh;
         width: 100%;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         display: flex;
         /* border-top: none; */
     }
@@ -79,9 +86,10 @@ flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
     .image-sec img{
-        width: 250px;
+        width: 100%;
         /* height: 200px; */
     }
     .text-sec{display: flex;
