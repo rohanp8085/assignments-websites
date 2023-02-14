@@ -97,8 +97,10 @@ flex-direction: column;
         justify-content: center;
         width: 100%;
         font-size: 40px;
+    /* border-radius: 0px; */
+
     }
-    .text-sec h6{width: 350px;
+    .text-sec h6{width: 200px;
         font-size: 35px;
     }
     .effect{display: none;
